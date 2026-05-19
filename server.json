@@ -1,0 +1,27 @@
+{
+  "name": "com.clauxel.mcpuptimeledger/mcpuptimeledger-mcp",
+  "title": "MCP Uptime Ledger",
+  "description": "Paid remote MCP for server uptime checks, schema validation, auth failure detection, SLA receipts, and status report exports.",
+  "version": "1.0.0",
+  "websiteUrl": "https://mcpuptimeledger.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/mcp-uptime-ledger-mcp",
+  "serverCardUrl": "https://mcpuptimeledger.clauxel.com/server-card.json",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpuptimeledger.clauxel.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token from the product website."
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "mcp-uptime",
+    "sla",
+    "schema-drift",
+    "remote-mcp"
+  ]
+}
