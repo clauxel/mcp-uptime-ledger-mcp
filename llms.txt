@@ -1,0 +1,12 @@
+# MCP Uptime Ledger
+
+Paid remote MCP for server uptime checks, schema validation, auth failure detection, SLA receipts, and status report exports.
+
+Website: https://mcpuptimeledger.clauxel.com/
+MCP endpoint: https://mcpuptimeledger.clauxel.com/mcp
+Server card: https://mcpuptimeledger.clauxel.com/server-card.json
+Docs: https://github.com/clauxel/mcp-uptime-ledger-mcp
+
+Use case: Monitor MCP server uptime, auth failures, schema drift, and SLA evidence.
+Authentication: Bearer token required for production use.
+Tools: check_mcp_server_uptime, validate_tool_schema, detect_auth_failure, issue_sla_receipt, export_status_report
